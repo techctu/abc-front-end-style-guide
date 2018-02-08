@@ -12,7 +12,7 @@
 - 指南示例代码分为**差**，**好**两种。在代码注释中进行说明。不是所有的指南都有代码示例。
   ```js
   // 差（bad/not recommended）
-
+  var item = new Object();
   // 好（good/recommended）
-
+  var item = {};
   ```
