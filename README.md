@@ -5,8 +5,8 @@
 ## 内容说明
 - HTML 代码风格指南：包含HTML相关的风格指南，请注意与各类模板语法标签的区分，如 velocity、JSX 等。
 - CSS 代码风格指南：包含CSS相关的风格指南，请注意与 LESS、SASS、SCSS 等的区分。
-- ECMAScript 5 代码风格指南：目前[浏览器支持](https://caniuse.com/#search=ECMAScript%205)最广泛的 JavaScript 代码风格指南，IE8及以下请使用针对性的 polyfill。
-- ECMAScript 2015 代码风格指南：已经到来的下一代 JavaScript 代码风格指南，
+- ECMAScript 5 代码风格指南：目前[浏览器支持](https://caniuse.com/#search=ECMAScript%205)最广泛的 JavaScript 代码风格指南，IE8及以下请使用针对性的 [polyfill](GLOSSARY.md#polyfill)。
+- ECMAScript 2015 代码风格指南：泛指 ES 已经到来的下一代 JavaScript 代码风格指南，
 
 ## 格式说明
 
