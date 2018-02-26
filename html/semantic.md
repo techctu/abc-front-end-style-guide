@@ -16,12 +16,12 @@
   <h2>二级标题</h2>
   <p>一段文字</p>
   <ul>
-        <li>列表</li>
-        <li>无序</li>
+    <li>列表</li>
+    <li>无序</li>
   </ul>
   <ol>
-        <li>有序</li>
-        <li>列表</li>
+    <li>有序</li>
+    <li>列表</li>
   </ol>
   <blockquote>一大段引用</blockquote>
   <cite>一般引用</cite>
