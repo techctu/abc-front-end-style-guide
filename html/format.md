@@ -122,16 +122,26 @@
 
   ```html
   <!-- Not recommended -->
-  The currency symbol for the Euro is &ldquo;&eur;&rdquo;.
+  <p>
+    The currency symbol for the Euro is &ldquo;&eur;&rdquo;.
+  </p>
+
+  <!-- Recommended -->
+  <p>
+    The currency symbol for the Euro is “€”.
+  </p>
+  ```
+
+  ```html
+  <!-- Not recommended: 使用了 < 导致解析和代码高亮出现异常 -->
+  <p>
+    1 < 2
+  </p>
   
   <!-- Recommended -->
-  The currency symbol for the Euro is “€”.
-  
-  <!-- Not recommended -->
-  1 < 2
-  
-  <!-- Recommended -->
-  1 &lsaquo; 2
+  <p>
+    1 &lsaquo; 2
+  </p>
   ```
 
 - 【**建议**】标签属性顺序如下排列。
