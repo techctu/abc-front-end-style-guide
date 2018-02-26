@@ -1,8 +1,8 @@
 ## HEAD {#html-head}
 
-- 使用 `<!DOCTYPE html>`。
+- 【**强制**】使用 `<!DOCTYPE html>`。
 
-- 使用 `lang="zh-CN"`。
+- 【**强制**】使用 `lang="zh-CN"`。
 
 - 使用 `utf-8` 编码并未做 `head` 的第一个子元素。
   ```html

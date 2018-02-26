@@ -111,7 +111,7 @@
   ```html
   <!-- Not recommended -->
   <span class="avatar">
-        <img src="assets/img/img.png" alt="Jane Doe">
+    <img src="assets/img/img.png" alt="Jane Doe">
   </span>
   
   <!-- Recommended -->
