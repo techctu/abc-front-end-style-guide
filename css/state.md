@@ -2,39 +2,54 @@
 - 【**建议**】使用语义化、通用的命名方式，组件样式突出组件状态，页面样式突出页面业务状态。
 
   ```css
-  /* Not recommended: meaningless */
+  /* Not recommended: 无意义 */
   #yee-1901 {}
 
-  /* Not recommended: presentational */
+  /* Not recommended: 展示状态非业务状态 */
   .button-green {}
   .clear {}
 
-  /* Recommended: specific */
+  /* Recommended: 业务状态-特定 */
   #gallery {}
   #login {}
   .video {}
 
-  /* Recommended: generic */
+  /* Recommended: 业务状态-通用 */
   .aux {}
   .alt {}
   ```
   
 - 【**强制**】使用小写字母。
+
+  ```css
+  /* Not recommended */
+  .Red {}
+  
+  /* Recommended */
+  .red {}
+  ```
+
 - 【**强制**】使用连字符 `-` 作为 ID、Class 名称界定符，不要驼峰命名法和下划线。
+
+  ```css
+  /* Not recommended */
+  .buziError {}
+  .Buzi_Error {}
+  
+  /* Recommended */
+  .buzi-error {}
+  ```
+
 - 【**建议**】出于性能考量，不要使用元素选择器叠加 Class、ID 使用。
 
   ```css
   /* Not recommended */
-  .red {}
-  .box_green {}
-  .page .header .login #username input {}
   ul#example {}
+  div.error {}
   
   /* Recommended */
-  #nav {}
-  .box-video {}
-  #username input {}
   #example {}
+  .error {}
   ```
     
 - 【**建议**】适当使用简写。
