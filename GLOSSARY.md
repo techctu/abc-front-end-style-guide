@@ -12,7 +12,10 @@ ECMAScript 的缩写。JavaScript 包含 ECMAScript、DOM、BOM。DOM 和 BOM �
 
 ## BOM
 
-浏览器对象模型。前端一般关注的是 `window`。
+释义1：浏览器对象模型。前端一般关注的是 `window`。
+
+释义2：字节(EF BB BF)，用来标识文件以 UTF-8 编码。但由于 UTF-8 与字节顺序无关，BOM 是不必要的。且网页输出会把(EF BB BF)直接输出。[UTF8 with BOM 被 Unicode 标准标识为**不推荐**：2.6 Encoding Schemes](http://www.unicode.org/versions/Unicode5.0.0/ch02.pdf)。
+
 
 ## ES 6+
 

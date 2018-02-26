@@ -2,6 +2,7 @@
 
 * [前言](README.md)
 * [HTML代码风格指南](html/index.md)
-  * [文档](html/doc.md)
+  * [文档与协议](html/doc.md)
+  * [格式](html/format.md)
 * [术语表](GLOSSARY.md)
 
